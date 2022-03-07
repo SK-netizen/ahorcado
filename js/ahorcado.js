@@ -48,7 +48,7 @@ function comprobarSeleccion(letra){
         // se modiva el numeor de fallos y de puntos
         modPuntos(1,false);
         numeroFallos++;
-        document.getElementById("imagenAhorcado").src="imagenes/dibuAhorcado/ah"+numeroFallos+".png";
+        document.getElementById("imagenAhorcado").src="../imagenes/dibuAhorcado/ah"+numeroFallos+".png";
         // si el numero de fallos e 6 llamos al gameOver para reiniciar los elementos
         if(numeroFallos==6){
             rebot();
@@ -83,7 +83,7 @@ function resturarBotonesLetrasImagenInit(){
     for(let i=0; i<letrasPulsadas.length; i++){
         document.getElementById("letter"+letrasPulsadas[i]).className="button_letter";
     }
-    document.getElementById("imagenAhorcado").src="imagenes/dibuAhorcado/ah0.png";
+    document.getElementById("imagenAhorcado").src="../imagenes/dibuAhorcado/ah0.png";
 }
 
 function cargaContenido() {
