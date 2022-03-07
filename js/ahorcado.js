@@ -158,4 +158,3 @@ function modPuntos(cantidad,sumRes){
     }
     document.getElementById("numPuntos").innerHTML=puntos.toString();
 }
-i
