@@ -8,7 +8,7 @@
     margin:0;
     padding:0;
     display:grid;
-    grid-template-columns:1fr 6fr ;
+    grid-template-columns:2fr 6fr 1fr ;
     grid-template-rows:1fr 6fr;
     row-gap:2%;
     justify-content: space-around;
