@@ -65,8 +65,32 @@
 }
 #layout2{
 }
-
 #layout3{
+    display:grid;
+    /* asi se hace resposive la cantida de columnas de  libros que */
+    grid-template-columns:repeat(auto-fill,minmax(17rem, 1fr));
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    justify-content: space-evenly;
+    align-content: space-evenly;
+    column-gap:4%;
+    row-gap:4%;
+}
+.libro{
+    display:grid;
+    grid-template-rows: auto auto auto auto;
+    grid-template-columns:auto ;
+    justify-content: center;
+    align-content: center;
+
+}
+.roded{
+    display:grid;
+    grid-template-rows: auto;
+    grid-template-columns:auto ;
+    justify-content: center;
+    align-content: center;
+}
+.imageLib{
 }
 #layout4{
 }
