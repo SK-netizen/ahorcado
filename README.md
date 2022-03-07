@@ -1,4 +1,1 @@
 # ahorcado
-# ahorcado
-# ahorcado
-# ahorcado
