@@ -1,0 +1,145 @@
+*{
+    width:100%;
+    height:100%;
+    margin:0;
+    padding:0;
+    border:0;
+}
+.grid_layout{
+    background:#edf6f9 ;
+    width:98%;
+    height:98%;
+    padding:0 1% 1%;
+    display:grid;
+    grid-template-columns: 1fr;
+    justify-content:space-between;
+    grid-template-rows: 1fr 6fr 1fr 2fr;
+}
+.container{
+    width:100%;
+    border:1px solid black;
+    height:100%;
+    background:#edf6f9 ;
+} 
+#cont1{
+    border:none;
+    display:grid;
+    grid-template-columns:10% 10%;
+    justify-content:space-between;
+}
+#menu{
+    box-shadow: 0px 0px 7px 0px rgba(0,0,0,1);
+    background:#02c39a;
+    border-radius:10px;
+    font-size:1em;
+    text-align:center;
+    margin:5%;
+    width:80%;
+    height:80%;
+}
+#menu:active{
+    background:#f2b5d4;
+}
+#contPunt{
+    box-shadow: 0px 0px 7px 0px rgba(0,0,0,1);
+    background:#83C5BE;
+    font-size:1em;
+    text-color:#006D77;
+    text-align:center;
+    border-radius: 10px;
+    margin:5%;
+    width:90%;
+    height:80%;
+    display:grid;
+    grid-template-columns:auto;
+    grid-template-rows:auto auto;
+    align-content:center;
+    justify-content:center;
+
+}
+#cont2 {
+    border:none;
+    display:grid;
+    grid-template-columns: 1.5fr 1fr;
+    grid-template-rows:auto;
+}
+#imagenAhorcado{
+    width:50%;
+    height:50%;
+    position:relative;
+    margin:10% 0 0 20%;
+}
+#letras {
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,1);
+    border:1px solid #BDBDBD;
+    background:#f0f3bd;
+    margin:5% 0 ;
+    width:70%;
+    height:70%;
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    justify-content:space-evenly;
+    align-content:space-evenly;
+}
+
+.letraUsadaFallo, .button_letter, .letraUsadaAcierto{
+    box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.6);
+    width:90%;
+    height:90%;
+    border-radius:10% ;
+}
+.letraUsadaFallo{
+    color: #aef3e7;
+    background:#c33c54; 
+}
+.letraUsadaAcierto{
+    color: #1d4e89;
+    background:#02c39a; 
+}
+.button_letter:active {
+    color: #edf6f9;
+    background: #FF8360;
+}
+.button_letter:hover {
+    color: #edf6f9;
+    background: #E29578;
+}
+.button_letter{
+    color: #006D77;
+    background:#FFDDD2; 
+}
+#cont3{
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,1);
+    background:#05668d;
+    display:grid;
+    grid-template-rows:1fr;
+    justify-content:center;
+    grid-gap: 0.3%;
+}
+.pal{
+    color: #edf6f9;
+    background: #E29578;
+}
+.letraAcertada{
+    color: #1d4e89;
+    background:#02c39a; 
+}
+.pal, .letraAcertada{
+    border-radius:5%;
+    height:90%;
+    margin: 5% 0;
+    display:grid;
+    grid-template-columns:auto;
+    grid-template-rows:auto;
+    align-content:center;
+    justify-content:center;
+}
+#cont4{
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,1);
+    background:#f0f3bd;
+    text-color:#05668d;
+    font-size:2em;
+}
+
+
