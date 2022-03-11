@@ -97,7 +97,7 @@
     color: #1d4e89;
     background:#02c39a; 
 }
-.button_letter:active {
+.button_letter:focus{
     color: #edf6f9;
     background: #FF8360;
 }
