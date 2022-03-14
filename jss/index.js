@@ -1,8 +1,4 @@
 let aa;
-let epicStatus=true;
-let negraStatus=true;
-let adoelscentesStatus=true;
-
 window.addEventListener("scroll", function(){
     var tamLayaout1= document.getElementById("layout1");
     tamanio=tamLayaout1.clientHeight;
@@ -54,36 +50,16 @@ function anadirSubMenus(IdMenu,cantItems){
     }
 }
 function setCategoria(categoria){
-    let libro;
-    let nomLibroId;
-    epica=[1,2,3,4];
-    negra=[5,6,7,8];
-    adolescentes=[9,10,11,12];
+    epica=[1,3,5,12];
+    negra=[2,4,7,11];
+    adolescentes=[6,8,9,10];
     categorias=[epica,negra,adolescentes];
-    estados=[epicStatus,negraStatus, adoelscentesStatus]
     console.log(categorias[categoria]);
-    for(let x=0; x<3; x++){
-        for(let i=0; i<4; i++){
-            nomLibroId="libro"+categorias[x][i].toString();
-            libro = document.getElementById(nomLibroId)
-            if(libro.classList[0]=="libro"){
-                if(x+1==categoria){
-                    libro.className="libroVisible";
-                }else{
-                    $("#"+nomLibroId).slideUp();
-                    libro.className="libroNoVisible";
-                }
-            }else{
-                if(libro.classList[0]=="libroNoVisible" && x+1==categoria){
-                    $("#"+nomLibroId).slideDown();
-                    libro.className="libroVisible"
-                }else{
-                    if(libro.classList[0]=="libroVisible" && x+1==categoria){
-                        $("#"+nomLibroId).slideUp();
-                        libro.className="libroNoVisible"
-                    }
-                }
-            }
+    for(int i=1; i<4, i++){
+        let libro = document.getElementById("libro"+i.toString());
+        if(libro.classList[0]="libro"){
+            $("libro"+i.toString()).slideUp();
+            libro.className="libroNoVisible"
         }
     }
 }
