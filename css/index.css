@@ -73,7 +73,7 @@
 #scrol{
     display:grid;
     grid-template-columns: 2fr 10fr;
-    grid-template-rows:auto auto;
+    grid-template-rows:auto 6rem;
     justify-content: space-between;
     row-gap:12px;
     column-gap:8px;
