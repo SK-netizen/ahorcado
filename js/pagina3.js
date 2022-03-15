@@ -95,7 +95,7 @@ function validacion() {
         alert("No se pudo enviar el formulario")
         return false;
     } else {
-        alert("Datos enviados con exito");
+        alert("Todo correcto,tienes una semana para leer el libro en caso de tardar mas se te aplicara un recargo de 3000€ por dia de retraso");
         doc.submit();
     }
 }
