@@ -23,6 +23,6 @@ window.addEventListener("scroll", function(){
     }
     tamLayaout1.style.cssText= "height:"+tamanio.toString()+"px;";
     aa=window.scrollY
-})
+});
 
 
